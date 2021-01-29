@@ -2,10 +2,10 @@
 
 ```sh
 echo "
-	.env
-	.DS_Store
-	.next
-	node_modules
+.DS_Store
+.env
+.next
+node_modules
 " >> .gitignore
 
 npm init -y
@@ -16,7 +16,7 @@ npm i -D typescript \
 	@types/react \
 	@types/react-dom \
 	@types/node
-	
+
 touch tsconfig.json
 mkdir pages
 ```
@@ -50,5 +50,3 @@ npm run dev
 
 }
 ```
-
-
