@@ -39,7 +39,7 @@ mkdir pages
 npm run dev
 ```
 
-## Add absolute imports
+## Add absolute imports from root directory
 
 ### `tsconfig.json`
 

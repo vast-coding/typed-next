@@ -4,7 +4,7 @@ import React from "react";
 
 class MyDocument extends Document {
   static async getInitialProps(ctx) {
-    // Render the app and get the context fo the page with collected side effects
+    // Render the app and get the context for the page with collected side effects
     const sheets = new ServerStyleSheets();
     const originalRenderPage = ctx.renderPage;
 
