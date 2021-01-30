@@ -50,3 +50,38 @@ npm run dev
 
 }
 ```
+
+## Server side
+
+```sh
+mkdir api
+cd api
+npm init -y
+
+# graphql
+npm i typescript type-graphql graphql reflect-metadata
+npm i -D @ types/node 
+
+# mongoose
+npm i @typegoose/typegoose mongoose connect-mongo
+npm i -D @types/mongoose
+
+# express, JWT
+npm i express jsonwebtoken
+npm i -D @types/express @types/jsonwebtoken
+
+npm i   typescript \
+	graphql \
+	type-graphql \
+	reflect-metadata \
+	@typegoose/typegoose \
+	mongoose \
+	connect-mongo \
+	express \
+	jsonwebtoken
+	
+npm i -D @types/node \
+	@types/mongoose \
+	@types/express \
+	@types/jsonwebtoken
+```
