@@ -8,8 +8,9 @@ echo "
 node_modules
 " >> .gitignore
 
-npm init -y
 git init
+cd app
+npm init -y
 npm i react react-dom next
 
 npm i -D typescript \
@@ -50,3 +51,29 @@ npm run dev
 
 }
 ```
+
+## Server side
+
+```sh
+mkdir api
+cd api
+npm init -y
+npx tsc --init
+
+npm i   typescript \
+	graphql \
+	type-graphql \
+	reflect-metadata \
+	@typegoose/typegoose \
+	mongoose \
+	connect-mongo \
+	express \
+	jsonwebtoken
+	
+npm i -D @types/node \
+	@types/mongoose \
+	@types/express \
+	@types/jsonwebtoken
+	
+```
+
